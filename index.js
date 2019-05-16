@@ -1,9 +1,10 @@
 document.addEventListener("DOMContentLoaded", function() {
-    let text = document.getElementById('text')
-    text.innerHTML = 'This is really cool!'
-})
+    displayMessage()
+});
 
-
+function displayMessage() {
+  document.getElementById('text').innerHTML = 'This is really cool!'
+}
 
 
 
